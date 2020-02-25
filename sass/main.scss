@@ -10,6 +10,7 @@ html{
 
 body{
     font-family: 'Roboto';
+    overflow: hidden;
 }
 
 .hero-shadow{
@@ -46,7 +47,7 @@ nav{
     .navbar-nav{
         display: flex;
         align-items: center;
-        // margin-top: 10px;
+
         .nav-item{
             padding: 10px;
             font-size: 20px;
@@ -56,9 +57,8 @@ nav{
     
 }
 
-.carousel-item{
-    img{
-        margin-top: 5.5rem;
-        height: 45vh;
-    }
+.global-card-deck{
+    .news-card{
+        margin-top: 4.5rem;
+    }     
 }

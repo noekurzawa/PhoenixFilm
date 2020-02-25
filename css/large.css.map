@@ -1,6 +1,6 @@
 {
     "version": 3,
-    "mappings": "AAAA,AAEQ,GAFL,CACC,cAAc,CACV,GAAG,CAAC;EACA,MAAM,EAAE,IAAI;CACf",
+    "mappings": "",
     "sources": [
         "../sass/large.scss"
     ],
