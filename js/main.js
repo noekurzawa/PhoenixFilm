@@ -6,14 +6,4 @@ $(document).ready(function () {
             $(".navbar-toggler").click();
         }
     });
-
-    // slick.js
-  $(".global-carousel").slick({
-    // setting-name: setting-value
-    autoplay: true,
-    autoplaySpeed: 4500,
-    mobileFirst: true,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-  });
 });

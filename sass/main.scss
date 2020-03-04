@@ -6,11 +6,11 @@
 
 html{
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 
 body{
     font-family: 'Roboto';
-    overflow: hidden;
 }
 
 .hero-shadow{
@@ -19,6 +19,7 @@ body{
     width: 100%;
     height: 100%;
     background-color: rgba(0,0,0,.6);
+    z-index: -1;
 }
 
 .orange-color{
@@ -27,10 +28,6 @@ body{
 
 
 nav{
-    .fa-camera-retro{
-        font-size: 1.5rem;
-    }
-    
     .fas.fa-bars{
         font-size: 3rem;
     }
@@ -54,4 +51,45 @@ nav{
             text-transform: uppercase;
         }
     }
+}
+
+// HEADER
+header{
+   position: relative;
+   height: 100vh;
+   background-image: url("../img/manhattan-_1280.jpg");
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+   z-index: 0;
+}
+
+header .btn{
+    padding: 1rem 2rem;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.header-text{
+    font-size: 1.7rem;
+}
+
+.display-3{
+    margin-top: 4.5rem;
+}
+
+// ABOUT
+.about-boxes{
+    h3{font-size: 2.4rem;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+}
+
+.about-icon{
+    font-size: 3rem;
+}
+
+p:last-child{
+    font-size: 1.4rem;
 }
