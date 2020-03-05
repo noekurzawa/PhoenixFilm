@@ -25,7 +25,7 @@ body {
 }
 
 p {
-  font-size: 1.6rem;
+  font-size: 1.4rem;
 }
 
 .visibility {
@@ -34,8 +34,8 @@ p {
 
 .scroll-fix::before {
   display: block;
-  height: 4.5rem;
-  margin-top: -4.5rem;
+  height: 3rem;
+  margin-top: -3rem;
   content: "";
 }
 
@@ -125,6 +125,14 @@ header .btn {
   color: #ff5d23;
 }
 
+#about .accordion button {
+  font-size: 1.6rem;
+}
+
+#about .accordion .card-body {
+  font-size: 1.5rem;
+}
+
 #team {
   padding: 4rem 0;
   background-color: #f8f8f8;
@@ -134,13 +142,24 @@ header .btn {
   margin: 2rem 0;
 }
 
-.card-footer {
+#team .card-footer {
   margin-left: 0;
   margin-right: 0;
 }
 
+#team .card-footer i {
+  padding: .5rem;
+  font-size: 2rem;
+  -webkit-transition: color .3s;
+  transition: color .3s;
+}
+
+#team .card-footer i:hover {
+  color: black !important;
+}
+
 #team .card-img-top {
-  height: 320px;
+  height: 300px;
   -o-object-fit: cover;
      object-fit: cover;
 }
